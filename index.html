@@ -1,0 +1,149 @@
+<!doctype html>
+<!--
+  Palett: öötaevas #12151B, neutraaljoon #39404A, sõlme-kontuur #6E7480, logosinine #4C82E0 (IT), türkiis #3CC5C3 (puhastus), praegu-joon #232830
+  Kirjad: IBM Plex Sans 600 (logo, inline SVG), IBM Plex Mono (e-post)
+  Layout: logo üleval vasakul, aimar@ all vasakul, ragne@ all paremal; keskel servast servani verstapostirada — läbitud etapid neutraalsed rombid, hargnemissõlmest kaks värvilist suunda täidetud vahepunktidega, mõlemad jätkuvad katkendjoonena
+  Signature: hargnemissõlm — kaheks värviks jagatud romb (pool sinine, pool türkiis) — üks ettevõte, kaks suunda
+  Tume: kaks haruvärvi vajavad pimedat fooni; staatiline — teekond ei pea liikuma, ta peab olema loetav
+-->
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RMT Konsult OÜ</title>
+<meta name="description" content="RMT Konsult OÜ — infosüsteemide nõustamine tootmisettevõtetele.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='4' y='42' width='44' height='16' fill='%234C82E0'/%3E%3Crect x='52' y='42' width='44' height='16' fill='%233CC5C3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --taust: #12151B;
+    --joon: #39404A;
+    --kontuur: #6E7480;
+    --sinine: #4C82E0;
+    --turkiis: #3CC5C3;
+    --nyyd: #232830;
+    --luu: #E3DFD3;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--taust);
+    color: var(--luu);
+    font-family: "IBM Plex Mono", monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header { padding: 48px 6vw 0; }
+  h1 { line-height: 0; }
+  h1 svg { width: clamp(120px, 13vw, 180px); height: auto; display: block; }
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .rada { width: 100%; }
+  .rada svg { display: block; width: 100%; height: auto; }
+  .rada-mob { display: none; }
+  footer {
+    padding: 0 6vw 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+  }
+  footer a {
+    color: var(--luu);
+    font-size: 15px;
+    letter-spacing: .05em;
+    text-decoration: none;
+  }
+  footer a:hover { text-decoration: underline; text-underline-offset: 5px; }
+  footer a:focus-visible { outline: 2px solid var(--sinine); outline-offset: 4px; }
+  footer a.ragne:focus-visible { outline-color: var(--turkiis); }
+  @media (max-width: 720px) {
+    /* kogu leht mahub ekraanile: keha on täpselt vaateava kõrgune ja rada skaleerub järelejäävasse ruumi */
+    body { min-height: 0; height: 100vh; height: 100svh; }
+    header { padding: 20px 24px 0; }
+    h1 svg { width: 124px; }
+    main { min-height: 0; align-items: stretch; }
+    .rada { display: none; }
+    .rada-mob { display: flex; justify-content: center; width: 100%; padding: 12px 0; }
+    .rada-mob svg { display: block; height: 100%; width: auto; }
+    footer { padding: 0 24px 20px; flex-direction: column; gap: 12px; }
+    footer a { font-size: 13px; }
+    footer a.ragne { align-self: flex-end; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1><svg viewBox="0 0 745 174" role="img" aria-label="RMT Konsult OÜ" xmlns="http://www.w3.org/2000/svg"><text x="0" y="100" textLength="745" lengthAdjust="spacingAndGlyphs" font-family="IBM Plex Sans, sans-serif" font-weight="600" font-size="100" letter-spacing="-1" fill="#FFFFFF">RMT KONSULT</text><rect x="0" y="141" width="356" height="33" fill="#4C82E0"></rect><rect x="389" y="141" width="356" height="33" fill="#3CC5C3"></rect></svg></h1>
+</header>
+
+<main>
+  <!-- horisontaalne rada (desktop) -->
+  <div class="rada" aria-hidden="true">
+    <svg viewBox="0 0 1440 240" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs>
+        <path id="teemant" d="M0,-8 L8,0 L0,8 L-8,0 Z"/>
+      </defs>
+      <!-- praegu-joon -->
+      <path d="M720,0 V240" stroke="#232830" stroke-width="1"/>
+      <!-- läbitud tee -->
+      <path d="M20,110 H760" stroke="#39404A" stroke-width="1.5"/>
+      <!-- IT-suund (sinine) -->
+      <path d="M760,110 H1200" stroke="#4C82E0" stroke-width="1.5"/>
+      <path d="M1208,110 H1430" stroke="#4C82E0" stroke-width="1.5" stroke-dasharray="2 9" opacity=".7"/>
+      <!-- puhastuse suund (türkiis) -->
+      <path d="M760,110 V180 H1010" stroke="#3CC5C3" stroke-width="1.5"/>
+      <path d="M1018,180 H1430" stroke="#3CC5C3" stroke-width="1.5" stroke-dasharray="2 9" opacity=".7"/>
+      <!-- verstapostid -->
+      <use href="#teemant" transform="translate(60,110)"  stroke="#6E7480" stroke-width="1.5" fill="#12151B"/>
+      <use href="#teemant" transform="translate(300,110)" stroke="#6E7480" stroke-width="1.5" fill="#12151B"/>
+      <use href="#teemant" transform="translate(540,110)" stroke="#4C82E0" stroke-width="1.5" fill="#12151B"/>
+      <g transform="translate(760,110)">
+        <path d="M-10,0 L0,-10 L10,0 Z" fill="#4C82E0" stroke="#12151B" stroke-width="1"/>
+        <path d="M-10,0 L0,10 L10,0 Z" fill="#3CC5C3" stroke="#12151B" stroke-width="1"/>
+      </g>
+      <use href="#teemant" transform="translate(1200,110)" fill="#4C82E0"/>
+      <use href="#teemant" transform="translate(1010,180)" fill="#3CC5C3"/>
+      <use href="#teemant" transform="translate(1400,110)" stroke="#6E7480" stroke-width="1.5" fill="#12151B"/>
+    </svg>
+  </div>
+
+  <!-- vertikaalne rada (mobiil) -->
+  <div class="rada-mob" aria-hidden="true">
+    <svg viewBox="0 0 260 640" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <defs>
+        <path id="teemant-m" d="M0,-8 L8,0 L0,8 L-8,0 Z"/>
+      </defs>
+      <path d="M0,330 H260" stroke="#232830" stroke-width="1"/>
+      <path d="M70,16 V330" stroke="#39404A" stroke-width="1.5"/>
+      <path d="M70,330 V540" stroke="#4C82E0" stroke-width="1.5"/>
+      <path d="M70,548 V632" stroke="#4C82E0" stroke-width="1.5" stroke-dasharray="2 9" opacity=".7"/>
+      <path d="M70,330 H160 V540" stroke="#3CC5C3" stroke-width="1.5"/>
+      <path d="M160,548 V632" stroke="#3CC5C3" stroke-width="1.5" stroke-dasharray="2 9" opacity=".7"/>
+      <use href="#teemant-m" transform="translate(70,60)"  stroke="#6E7480" stroke-width="1.5" fill="#12151B"/>
+      <use href="#teemant-m" transform="translate(70,150)" stroke="#6E7480" stroke-width="1.5" fill="#12151B"/>
+      <use href="#teemant-m" transform="translate(70,240)" stroke="#4C82E0" stroke-width="1.5" fill="#12151B"/>
+      <g transform="translate(70,330)">
+        <path d="M0,-10 L-10,0 L0,10 Z" fill="#4C82E0" stroke="#12151B" stroke-width="1"/>
+        <path d="M0,-10 L10,0 L0,10 Z" fill="#3CC5C3" stroke="#12151B" stroke-width="1"/>
+      </g>
+      <use href="#teemant-m" transform="translate(70,460)" fill="#4C82E0"/>
+      <use href="#teemant-m" transform="translate(160,450)" fill="#3CC5C3"/>
+    </svg>
+  </div>
+</main>
+
+<footer>
+  <a href="mailto:aimar@rmtkonsult.ee">aimar@rmtkonsult.ee</a>
+  <a class="ragne" href="mailto:ragne@rmtkonsult.ee">ragne@rmtkonsult.ee</a>
+</footer>
+</body>
+</html>
