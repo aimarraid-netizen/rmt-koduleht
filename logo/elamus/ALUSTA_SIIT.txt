@@ -1,0 +1,35 @@
+ELAMUS PUHASTUS - LOGOFAILID
+
+KIIRVALIK
+Koduleht: originaal/elamus_originaal_varviline.svg
+Trükikoda, digitrükk, trükitav autokleebis: originaal/elamus_originaal_varviline.pdf
+Lõigatav autokleebis või tekstiilikile: lihtsustatud/elamus_lihtsustatud_must.svg või .eps
+Tekstiili DTF / DTG trükk: värviline PDF või läbipaistva taustaga PNG.
+Tikkimine: lihtsustatud SVG/PDF on lähtefail tikkimisprogrammi valmistamiseks.
+Tume taust: valge versioon. Valge logo on valgel lehel nähtamatu.
+Kui sa pole kindel, saada töökojale kogu ZIP koos soovitud mõõdu ja materjaliga.
+
+KAKS KUJUNDUSVARIANTI
+originaal - üles laaditud PNG põhjal vektoriseeritud logo; säilitab pintslijälgede iseloomu. See ei ole algne disaineri lähtefail. Rasterallika peened servad on puhastatud ja kõverateks teisendatud.
+lihtsustatud - alternatiivne töötlus: ring joonistatud ühtlasemaks, kirja pisikesi katkestusi vähendatud. Mõeldud tootmise lähtefailiks; ei asenda põhiversiooni automaatselt.
+Mõlemast on värviline, must ja valge variant.
+
+FORMAADID
+SVG - päris vektor, skaleerub kvaliteedikaota. Kõik tähed on kujundid; fonte ega lingitud pilte pole vaja.
+PDF - vektor, 200 x 200 mm leht, ühtlaselt skaleeritav. Lehe suurus sisaldab logo ümber vaba ruumi. Ei ole PDF/X tootmisfail.
+EPS - vektor vanematele kujundus- ja tootmisprogrammidele. Valgel variandil puudub taustavärv.
+PNG - 2400 x 2400 px, läbipaistev taust. Ei ole vektor; eelista suurte tööde jaoks SVG/PDF/EPS-i. 300 ppi juures on terve pildi külg 203 mm.
+Eelvaate PNG on ainult võrdlemiseks, mitte logo tootmisfail.
+
+VÄRVID
+PNG-lt hinnatud põhivärvid:
+Türkiis: HEX #03A8B0; RGB 3, 168, 176.
+Tumehall: HEX #383D46; RGB 56, 61, 70.
+Must versioon: #000000. Valge versioon: #FFFFFF.
+Värvilised failid kasutavad RGB-värve. Ametlikku Pantone-/RAL-/CMYK-koodi lähtefailist määrata ei saa. Trükikoda teeb teisenduse oma trükiprofiili järgi; kile ja niidi toon valida füüsilise näidise alusel.
+
+TOOTMISEKS KAASA
+Saada soovitud logo laius millimeetrites, materjal/taustavärv, kogus ja tööviis.
+Pintslitekstuuriga põhiversioon sisaldab väga peeni jooni ja pisikesi eraldiseisvaid kujundeid. Lõikamiseks eelista lihtsustatud varianti. Ka lihtsustatud logo teravad otsad ja peen kiri vajavad lõpliku mõõdu juures töökoja kontrolli; väikesele rinnalogole võib vaja minna täiendavat kohandust.
+Tikkimisfaili DST/PES selles komplektis ei ole. Selle valmistab tikkija vastavalt suurusele, kangale, niidile ja masinale.
+Trükitava kleebise väljalõikekontuur, bleed ning lõikemasina seadistus määratakse konkreetse tellimuse jaoks töökojas.
