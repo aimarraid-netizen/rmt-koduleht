@@ -1,0 +1,28 @@
+# Projektikataloogi kirje — skeem ja väljad: ~/projects/kataloog/CLAUDE.md (genereerib :8080/#projektid, registri, backup-nimekirja)
+nimi: rmtkonsult.ee
+grupp: RMT
+valdkond: veeb
+liik: veebileht
+staatus: töös
+kirjeldus: RMT Konsulti koduleht + logosüsteem
+kogum: RMT veeb
+seotud:
+- rmt-web
+lingid:
+- nimi: Koduleht
+  url: "https://rmtkonsult.ee"
+  ikoon: 🌐
+  launcher: true
+- nimi: Logogalerii
+  url: "http://ubu:8080/rmt-koduleht/"
+  ikoon: 🎨
+  launcher: false
+stack:
+- HTML
+- CSS
+markus: Repo PUBLIC; väljalase ~/projects/rmt-web/bin/release rmtkonsult; logo No. 91b
+portfoolio:
+  kaasa: false
+  avalik: false
+  pitch: ""
+  tulemus: ""
